@@ -15,6 +15,5 @@ public class SelectSort {
             arrays[i] = temp;
         }
     }
-
 }
 

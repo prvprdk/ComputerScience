@@ -15,8 +15,5 @@ public class InsertionSort {
             arrays[index] = temp;
 
         }
-
     }
-
-
 }

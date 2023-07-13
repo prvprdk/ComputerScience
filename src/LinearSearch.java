@@ -3,12 +3,9 @@ import java.util.Scanner;
 public class LinearSearch {
     private static final Integer numberForRandom = 6;
 
-
     public static void main(String[] args) {
 
         System.out.println(searchElement(5, createArray()));
-
-
     }
 
     private static Boolean searchElement(int x, int[] numbers) {
@@ -18,9 +15,8 @@ public class LinearSearch {
                 return true;
             }
         }
-        return  false;
+        return false;
     }
-
 
     private static int[] createArray() {
         int[] array = new int[10];

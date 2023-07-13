@@ -9,10 +9,8 @@ public class MergeSort {
             int[] right = Arrays.copyOfRange(array, array.length / 2, array.length);
             mergeSort(left);
             mergeSort(right);
-
             merge(left, right, array);
         }
-
     }
 
     public static void merge(int[] left, int[] right, int[] array) {
@@ -29,6 +27,5 @@ public class MergeSort {
             }
         }
     }
-
 }
 

@@ -15,8 +15,8 @@ public class Main {
         System.out.println();
 
         int[] arrayMergeSort = new int[100000];
-        for (int i = 0; i<arrayMergeSort.length; i++){
-            arrayMergeSort[i] = (int) (Math.random()*10000);
+        for (int i = 0; i < arrayMergeSort.length; i++) {
+            arrayMergeSort[i] = (int) (Math.random() * 10000);
         }
         long startMerge = System.currentTimeMillis();
         MergeSort.mergeSort(arrayMergeSort);
@@ -24,8 +24,8 @@ public class Main {
         System.out.println("Сортировка слиянием " + finishedMerge);
 
         int[] arraySelect = new int[100000];
-        for (int i = 0; i<arraySelect.length; i++){
-            arraySelect[i] = (int) (Math.random()*1000000);
+        for (int i = 0; i < arraySelect.length; i++) {
+            arraySelect[i] = (int) (Math.random() * 1000000);
         }
         long start = System.currentTimeMillis();
         SelectSort.selectSort(arraySelect);
@@ -33,10 +33,9 @@ public class Main {
         System.out.println("Сортировка выбором " + finished);
 
 
-
         int[] arrayInsert = new int[100000];
-        for (int i = 0; i<arrayInsert.length; i++){
-            arrayInsert[i] = (int) (Math.random()*10000);
+        for (int i = 0; i < arrayInsert.length; i++) {
+            arrayInsert[i] = (int) (Math.random() * 10000);
         }
         long startInsert = System.currentTimeMillis();
         InsertionSort.insertSort(arrayInsert);
@@ -44,13 +43,7 @@ public class Main {
         System.out.println("Сортировка вставками " + finishedInsert);
 
 
-
-
-
-
-
     }
-
 
 
 }
