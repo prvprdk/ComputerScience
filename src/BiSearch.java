@@ -4,7 +4,6 @@ import java.util.Objects;
 
 public class BiSearch {
 
-
     public static int searchBi(int x, int[] array) {
         Arrays.sort(array);
 
